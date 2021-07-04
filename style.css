@@ -7,8 +7,19 @@ h1{
 
     font-size: 40px;
 }
+.ex-center{
+    text-align: center;
+    color: maroon;
+    text-shadow:2px 2px 5px rgb(248, 8, 88);
+  
+
+}
 h2{
    font-size: 25px; 
+}
+.huper-human{
+    color: rgb(7, 130, 245);
+    font-style: italic;
 }
 p{
     color: dimgrey;
@@ -28,6 +39,7 @@ p{
     font-style: italic;
     font-size: 20px;
 }
+    
 .success{
     font-style: italic;
     font-size: large;
@@ -47,7 +59,7 @@ p{
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
-    padding-top: 100px;
+    padding-top: 50px;
     
 
 }
@@ -83,6 +95,7 @@ p{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    
    
 }
 #expreience-web-dev{
@@ -99,4 +112,9 @@ footer p{
     text-align: center;
     font-weight: bold;
     color: rgb(212, 58, 11);
+}
+.color-some{
+    color: rgb(248, 7, 99);
+   font-style: italic;
+    text-shadow:2px 2px 5px rgb(255, 220, 24); 
 }
