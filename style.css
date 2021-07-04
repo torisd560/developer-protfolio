@@ -7,13 +7,18 @@ h1{
 
     font-size: 40px;
 }
+h2{
+   font-size: 25px; 
+}
 p{
     color: dimgrey;
-    text-align: justify;
-    padding-right: 10px;
+    
+    padding-right: 150px;
+   
+
 
 }
-.blue{
+.orange{
     color:rgb(204, 105, 23);
     text-shadow:2px 2px 5px rgb(248, 8, 88); 
 }
@@ -27,30 +32,28 @@ p{
     font-style: italic;
     font-size: large;
     font-weight: 300;
-    color:#0f59bb; 
+    
 }
 
 .link-button{
 
     text-decoration: none;
-    background-image: linear-gradient(rgb(253, 120, 11),rgb(245, 27, 56));
+    background-image: linear-gradient(rgb(204, 105, 23),rgb(248, 8, 88));
     border-radius: 5px;
     color: oldlace;
     padding:10px 40px;
     font-weight: 800px;
 }
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    padding-top: 100px;
     
 
 }
 .half-width{
     width: 50%;
-    padding-left: 2%;
-    
-    
-  
+    padding-left: 5%;
 }
 .half-width img{
     width: 80%;
@@ -64,10 +67,36 @@ section{
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right bottom;
+    
 }
-
-
-
+.expreience-item{
+    width: 40%;
+    box-shadow:10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:10px;
+    border-radius: 10px;
     
-    
+}
+.expreience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+#expreience-web-dev{
+    border-left:5px solid;
+    border-image: linear-gradient(rgba(11, 45, 235, 0.884),rgb(11, 231, 247));
+    border-image-slice: 1;
+}
+#fullstack-dev{
+    border-left: 5px solid ;
+    border-image: linear-gradient(rgba(12, 168, 230, 0.884),rgb(248, 7, 99));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(212, 58, 11);
+}
