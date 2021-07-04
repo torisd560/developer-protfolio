@@ -4,7 +4,12 @@ margin: 0;
 }
 h1{
 
-    font-size: 50px;
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
+    text-align: justify;
+
 }
 .blue{
     color:rgb(204, 105, 23);
@@ -43,27 +48,16 @@ section{
   
 }
 .half-width img{
-    
-    height: 70%;
-    width: 50%;
-    border: 5px dotted rgb(189, 5, 91);
-    border-radius: 50%;
-    margin: auto;
-    display: block;
+    width: 80%;
    
+  
 
     
     
 }
-.background{
-    background-image: url(hand.png);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: auto;
-    
-}
+
 .top-banner{
-    background-image: url(top-banner.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 
